@@ -1,5 +1,13 @@
+<!-- SEO Meta Tags -->
+<meta name="description" content="A curated list of awesome weight pruning papers, repositories, and learning resources. Explore unstructured, structured, and semi-structured (N:M) model sparsity." />
+<meta name="keywords" content="weight pruning, model compression, neural network sparsity, deep learning optimization, structured pruning, lottery ticket hypothesis" />
+
 <p align="center">
   <img src="assets/banner.svg" alt="Awesome Weight Pruning Banner" width="800" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a><a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="License"/></a>
 </p>
 
 # ✂️ Awesome-Weight-Pruning
