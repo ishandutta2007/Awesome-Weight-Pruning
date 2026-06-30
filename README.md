@@ -1,16 +1,15 @@
-# Awesome-Weight-Pruning
-## Weight Pruning in AI: Evolution, Variants, Types, & Applications
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Weight Pruning Banner" width="800" />
+</p>
 
-Weight Pruning is a hardware-aware model compression and optimization framework designed to reduce the computational complexity, memory footprint, and energy consumption of deep neural networks. The core objective is to identify and permanently eliminate redundant, non-essential parameters (weights) from a fully trained or actively training network graph. By setting low-impact weight connections to an absolute value of zero, pruning transforms dense tensor matrices into **sparse matrices**. This allows specialized hardware engines and sparse compilers to bypass unnecessary zero-value floating-point operations (FLOPs), accelerating inference speeds and enabling massive foundation models to execute efficiently on resource-constrained edge devices.
-
-# Awesome-Weight-Pruning
-## Weight Pruning in AI: Evolution, Variants, Types, & Applications
+# ✂️ Awesome-Weight-Pruning
+## 🧠 Weight Pruning in AI: Evolution, Variants, Types, & Applications
 
 Weight Pruning is a hardware-aware model compression and optimization framework designed to reduce the computational complexity, memory footprint, and energy consumption of deep neural networks. The core objective is to identify and permanently eliminate redundant, non-essential parameters (weights) from a fully trained or actively training network graph. By setting low-impact weight connections to an absolute value of zero, pruning transforms dense tensor matrices into **sparse matrices**. This allows specialized hardware engines and sparse compilers to bypass unnecessary zero-value floating-point operations (FLOPs), accelerating inference speeds and enabling massive foundation models to execute efficiently on resource-constrained edge devices.
 
 ---
 
-## 1. The Chronological Evolution
+## 1. The Chronological Evolution ⏳
 
 The technical progression of model parameter elimination has transitioned from early statistical second-order derivative tracking to automated magnitude sorting, moving toward structured hardware-fused block patterns and dynamic sparse recovery networks.
 
@@ -29,7 +28,7 @@ flowchart LR
 
 ---
 
-## 2. Core Granularity & Structural Variants
+## 2. Core Granularity & Structural Variants 📐
 
 Pruning methodologies are strictly categorized based on the geometric patterns and physical layouts of the parameter elements targeted for elimination.
 
@@ -41,7 +40,7 @@ Pruning methodologies are strictly categorized based on the geometric patterns a
 
 ---
 
-## 3. Training Dynamics & Pruning Schedules
+## 3. Training Dynamics & Pruning Schedules 📅
 
 Depending on where the parameter elimination step intersects with the model optimization timeline, pruning schedules follow distinct operational pipelines.
 
@@ -53,7 +52,7 @@ Depending on where the parameter elimination step intersects with the model opti
 
 ---
 
-## 4. Production Engineering Challenges & Hardware Solutions
+## 4. Production Engineering Challenges & Hardware Solutions ⚙️
 
 Deploying sparse networks across commercial production nodes requires balancing algorithmic compression metrics against underlying silicon memory buses.
 
@@ -64,7 +63,7 @@ Deploying sparse networks across commercial production nodes requires balancing 
 
 ---
 
-## 5. Frontier Real-World AI Infrastructure Applications
+## 5. Frontier Real-World AI Infrastructure Applications 🚀
 
 | Frontier Application | Year | Paper | Description |
 | :--- | :--- | :--- | :--- |
