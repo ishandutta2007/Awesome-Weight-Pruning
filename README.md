@@ -9,7 +9,10 @@ Weight Pruning is a hardware-aware model compression and optimization framework 
 
 The technical progression of model parameter elimination has transitioned from early statistical second-order derivative tracking to automated magnitude sorting, moving toward structured hardware-fused block patterns and dynamic sparse recovery networks.
 
+```mermaid
 [Optimal Brain Damage (LeCun, 1989)] ----> [Magnitude-Based Pruning (Han et al., 2015)] ----> [Structured & Semi-Structured (2:4 Sparse)](Hessian-Driven Matrix Overheads)               (Heuristic Unstructured Thresholding)             (Hardware-Fused Tensor Core Alignment)
+```
+
 *   **The Analytical Second-Order Era (Optimal Brain Damage, LeCun et al., 1989)**
     *   *Concept:* The structural foundation of network sparsification. It modeled pruning as an optimization problem, utilizing second-order Taylor expansions to estimate the "salience" (importance) of each weight based on the diagonal elements of the Hessian matrix. Weights with the lowest salience were deleted.
     *   *Limitation:* Computationally prohibitive for large networks. Calculating or even approximating the explicit Hessian matrix introduces an $O(N^2)$ memory and parameter overhead, making it completely unscalable for deep networks.
