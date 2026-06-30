@@ -78,3 +78,17 @@ Deploying sparse networks across commercial production nodes requires balancing 
 | [**Low-Latency Enterprise LLM Serving (vLLM / TensorRT-LLM Deployments)**](details/llm_serving.md) | 2023 | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180) | **Application:** Optimizes cloud serving frameworks for high-volume concurrent streams. By applying 2:4 semi-structured pruning to large open-weights foundation models, enterprise servers activate native sparse tensor cores, cutting **Time-to-First-Token (TTFT)** metrics and doubling query throughput per node. |
 | [**Autonomous Vehicle Microcontroller Compression (TinyML Edge Vision)**](details/tinyml_edge_vision.md) | 2020 | [MCUNet: TinyDL on IoT Devices](https://arxiv.org/abs/2007.10319) | **Application:** Compresses deep convolutional and vision-language stacks to fit within the highly restricted VRAM and thermal power caps of vehicle chipsets. Structured filter pruning scales down the computer vision perception graph, letting edge cards run object classification and depth segmentation maps in real time. |
 | [**On-Device Personalization for Consumer Electronics**](details/on_device_personalization.md) | 2023 | [QLoRA: Efficient Finetuning of Quantized LLMs](https://arxiv.org/abs/2305.14314) | **Application:** Running localized assistants on mobile devices or consumer laptops. Weight pruning, layered alongside **BitsAndBytes 4-bit Quantization**, compresses model footprints down into standard system RAM boundaries, preserving device battery life during offline conversational sampling loops. |
+
+---
+
+## 📈 Star History
+
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Weight-Pruning&type=date&legend=bottom-right">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Weight-Pruning&type=date&theme=dark&legend=bottom-right" />
+  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Weight-Pruning&type=date&legend=bottom-right" />
+  <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Weight-Pruning&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
