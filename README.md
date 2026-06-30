@@ -10,7 +10,10 @@ Weight Pruning is a hardware-aware model compression and optimization framework 
 The technical progression of model parameter elimination has transitioned from early statistical second-order derivative tracking to automated magnitude sorting, moving toward structured hardware-fused block patterns and dynamic sparse recovery networks.
 
 ```mermaid
-[Optimal Brain Damage (LeCun, 1989)] ----> [Magnitude-Based Pruning (Han et al., 2015)] ----> [Structured & Semi-Structured (2:4 Sparse)](Hessian-Driven Matrix Overheads)               (Heuristic Unstructured Thresholding)             (Hardware-Fused Tensor Core Alignment)
+flowchart LR
+    A["Optimal Brain Damage (LeCun, 1989)<br/>(Hessian-Driven Matrix Overheads)"]
+    --> B["Magnitude-Based Pruning (Han et al., 2015)<br/>(Heuristic Unstructured Thresholding)"]
+    --> C["Structured & Semi-Structured (2:4 Sparse)<br/>(Hardware-Fused Tensor Core Alignment)"]
 ```
 
 *   **The Analytical Second-Order Era (Optimal Brain Damage, LeCun et al., 1989)**
